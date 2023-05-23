@@ -72,6 +72,6 @@ jobs:
         with:
           app-name: 'mlprojectdemo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF40C19E11A74CEE82A21D995823CCCF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE }}
 
  
